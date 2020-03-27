@@ -159,7 +159,8 @@ a:hover {
 /*  */
 .blocks-container {
   grid-column-start: 3;
-  height: 150vh;
+  height: 100%;
+  /* height: 150vh; */
   padding: 5rem 15rem;
   display:grid;
   grid-template-rows: repeat(6, 1fr);
@@ -191,7 +192,7 @@ a:hover {
   grid-row: span 2;
   grid-column: span 2;
   background-color: rgb(96, 109, 134);
-  border: #8bc0c4 solid 0.5rem;
+  border: #8bc0c4 solid 0.3rem;
 }
 
 .alt-square {
@@ -200,7 +201,7 @@ a:hover {
   background-image: url("../images/darkmesh.jpg");
   background-size: cover;
   background-position: center;
-  border: steelblue solid 0.5rem; 
+  border: steelblue solid 0.3rem; 
 }
 
 .large {
@@ -209,7 +210,7 @@ a:hover {
   background-image: url("../images/slack-logo.png");
   background-size: cover;
   background-position: top;
-  border: darkgray solid 0.5rem;
+  border: darkgray solid 0.3rem;
 }
 
 .tall {
@@ -218,13 +219,13 @@ a:hover {
   background-image: url("../images/darkmesh.jpg");
   background-size: cover;
   background-position: center;
-  border: #8bc0c4 solid 0.5rem;
+  border: #8bc0c4 solid 0.3rem;
 }
 
 .wide {
   grid-row: span 2;
   grid-column: span 3;
-  border: rgb(96, 109, 134) solid 0.5rem;
+  border: rgb(96, 109, 134) solid 0.3rem;
   background-color: rgb(228,102,99);
 }
 
@@ -257,6 +258,9 @@ a:hover {
   .large {
     background-image: unset;
     background-color: #49144b;
+  }
+  .index-footer {
+    align-self: end;
   }
 }
 
