@@ -169,11 +169,10 @@ a:hover {
 }
 
 .blocks-container > * {
-  /* font-family: 'Raleway', sans-serif; */
   text-align: center;
   padding: 1rem 3rem;
   height: auto;
-  color: whitesmoke;
+  color: black;
   border-radius: 50%;
 }
 
@@ -191,42 +190,46 @@ a:hover {
 .square {
   grid-row: span 2;
   grid-column: span 2;
-  background-color: rgb(96, 109, 134);
-  border: #8bc0c4 solid 0.3rem;
+  background-image: url("../images/brush_turquoise.png");
+  background-size: cover;
+  background-position: left;
+  border: white solid 0.3rem;
 }
 
 .alt-square {
   grid-row: span 2;
   grid-column: span 2;
-  background-image: url("../images/darkmesh.jpg");
+  background-image: url("../images/brush_yellow.png");
   background-size: cover;
   background-position: center;
-  border: steelblue solid 0.3rem; 
+  border: white solid 0.3rem; 
 }
 
 .large {
   grid-row: span 3;
   grid-column: span 3;
-  background-image: url("../images/slack-logo.png");
+  background-image: url("../images/brush_purple.png");
   background-size: cover;
-  background-position: top;
-  border: darkgray solid 0.3rem;
+  background-position: bottom;
+  border: white solid 0.3rem;
 }
 
 .tall {
   grid-row: span 3;
   grid-column: span 2;
-  background-image: url("../images/darkmesh.jpg");
+  background-image: url("../images/brush_turquoise.png");
   background-size: cover;
-  background-position: center;
-  border: #8bc0c4 solid 0.3rem;
+  background-position: right;
+  border: white solid 0.3rem;
 }
 
 .wide {
   grid-row: span 2;
   grid-column: span 3;
-  border: rgb(96, 109, 134) solid 0.3rem;
-  background-color: rgb(228,102,99);
+  background-image: url("../images/brush_pink.png");
+  background-size: cover;
+  background-position: center;
+  border: white solid 0.3rem;
 }
 
 #github {
@@ -251,13 +254,11 @@ a:hover {
     border-radius: 5%;
     padding: 2rem;
     margin: 1rem 0;
+    background-position: center;
+    /* color: whitesmoke; */
   }
   .blocks-container div p:last-child {
     text-align: left;
-  }
-  .large {
-    background-image: unset;
-    background-color: #49144b;
   }
   .index-footer {
     align-self: end;
