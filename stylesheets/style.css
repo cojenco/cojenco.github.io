@@ -246,7 +246,7 @@ a:hover {
   font-weight: bold;
 }
 
-#port-link:hover {
+#port-link a:hover {
   color: whitesmoke;
   font-weight: bold;
 }
