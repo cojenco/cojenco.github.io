@@ -242,6 +242,15 @@ a:hover {
   margin-right: auto;
 }
 
+#port-link {
+  font-weight: bold;
+}
+
+#port-link:hover {
+  color: whitesmoke;
+  font-weight: bold;
+}
+
 /* Porfolio was designed for desktop first. Media Query for smaller screens. */
 @media only screen and (max-width: 800px) {
   .blocks-container {
